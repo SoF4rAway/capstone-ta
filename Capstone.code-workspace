@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"name": "Capstone",
+			"path": "."
+		},
+		{
+			"name": "tes",
+			"path": "../../PlatformIO/Projects/tes"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"array": "cpp",
+			"deque": "cpp",
+			"string": "cpp",
+			"unordered_map": "cpp",
+			"vector": "cpp",
+			"string_view": "cpp",
+			"initializer_list": "cpp",
+			"optional": "cpp",
+			"istream": "cpp",
+			"ostream": "cpp",
+			"system_error": "cpp",
+			"tuple": "cpp",
+			"type_traits": "cpp",
+			"utility": "cpp",
+			"iostream": "cpp"
+		}
+	}
+}
