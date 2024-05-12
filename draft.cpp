@@ -45,6 +45,7 @@ int lastMinuteChecked = -1;
 int day, hour, minute, dayOfWeek, w_lv_value;
 int food_lv;
 float humi, temp;
+bool isCleaning, isDisinfecting;
 
 void getHigh12SectionValue(void)
 {
@@ -289,15 +290,19 @@ void loop()
   if (hour != lastHourChecked)
   {
     lastHourChecked = hour;
+    isCleaning = false;
+    isDisinfecting = false;
     if (hour == int(cleaning_hour) && day != lastDay)
     {
       lastDay = day; // Update the last day the operation was performed
+
       digitalWrite(SOL_1, HIGH);
       for (int i = 0; i <= 3; i++)
       {
         moveStepper();
         delay(500);
         moveStepperBack();
+        isCleaning = true;
       }
       digitalWrite(SOL_1, LOW);
       if (dayOfWeek == disinfection_day)
@@ -308,6 +313,7 @@ void loop()
           digitalWrite(WTR_PMP, HIGH);
           delay(3000);
           digitalWrite(WTR_PMP, LOW);
+          isDisinfecting = true;
         }
       }
     }
