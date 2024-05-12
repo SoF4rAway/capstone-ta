@@ -18,7 +18,7 @@
   These functions are generated with the Thing and added at the end of this sketch.
 */
 
-#include "thingProperties.h"
+//#include "thingProperties.h"
 // Library Import
 #include <Arduino.h>
 #include <AccelStepper.h>
