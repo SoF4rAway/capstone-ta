@@ -89,7 +89,7 @@ project-root/
 
 ## Citation
 If you use this project in your research, please consider citing the following paper:
-
+``` bash
 @article{yourLastName2024,
   title={Design and Development of an Automated Birdcage Management System Using Microcontrollers and IoT},
   author={Your Name and Advisor Name},
@@ -100,7 +100,7 @@ If you use this project in your research, please consider citing the following p
   pages={10-20},
   publisher={University of Andalas},
 }
-
+```
 
 ## Contact 
 For any questions or feedback, feel free to reach out:
