@@ -60,7 +60,7 @@ Once the code is uploaded and the wiring is complete:
 2. **Cage Cleaning**: The automatic scrubbing system is activated according to a schedule, ensuring the cage remains clean with minimal residue.
 3. **Remote Monitoring**: Use the Arduino IoT Cloud dashboard or mobile app to monitor the bird's conditions, including food and water levels, and receive notifications.
 
-##Features
+## Features
 - Automated Feeder Refill System: Monitors and refills the food with a tolerance of ±1.0 cm
 - Atutomated Water Refill System: Monitors and refills the water with a tolerance of ±0.5 cm
 - Automated Bird Dropping Cleaning: Scrubs and Spray Water to reduce manual maintenance
@@ -73,4 +73,19 @@ Make sure to configure the environment variables for WiFi and IoT Cloud settings
 ```bash
 const char SSID[] = "your_wifi_ssid";
 const char PASS[] = "your_wifi_password";
+```
+For Arduino IoT Cloud integration, use the appropriate cloud dashboard and ensure your device is registered and linked to the correct variables.
 
+## System Architecture
+The project structure is as follows:
+``` bash
+project-root/
+├── src/
+│   ├── main.ino          # Main Arduino code
+│   ├── ultrasonic_sensor.ino # Ultrasonic sensor code for food monitoring
+│   ├── water_level_sensor.ino # Water level monitoring
+│   ├── cleaning_system.ino  # Cage cleaning and disinfection logic
+│   └── iot_integration.ino   # IoT Cloud connectivity code
+├── schematics/           # Circuit diagrams and wiring instructions
+└── README.md
+```
