@@ -88,19 +88,14 @@ project-root/
 ```
 
 ## Citation
-If you use this project in your research, please consider citing the following paper:
-``` bash
-@article{yourLastName2024,
-  title={Design and Development of an Automated Birdcage Management System Using Microcontrollers and IoT},
-  author={Your Name and Advisor Name},
-  journal={Journal of Automation and IoT in Animal Care},
-  year={2024},
-  volume={1},
-  number={1},
-  pages={10-20},
-  publisher={University of Andalas},
-}
-```
+If you find this work useful for your research, please consider citing the following paper:
+
+**Author** : Muhammad Farid Rahman, and Rifki Suwandi
+**Title** : Rancang Bangun Sistem Otomatisasi Sangkar Burung Berbasis Mikrokontroler
+**Type** : Theses
+**Publisher** : Andalas University
+**Year** : 2024
+
 
 ## Contact 
 For any questions or feedback, feel free to reach out:
