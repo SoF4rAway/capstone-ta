@@ -81,11 +81,29 @@ The project structure is as follows:
 ``` bash
 project-root/
 ├── src/
-│   ├── main.ino          # Main Arduino code
-│   ├── ultrasonic_sensor.ino # Ultrasonic sensor code for food monitoring
-│   ├── water_level_sensor.ino # Water level monitoring
-│   ├── cleaning_system.ino  # Cage cleaning and disinfection logic
-│   └── iot_integration.ino   # IoT Cloud connectivity code
-├── schematics/           # Circuit diagrams and wiring instructions
+│   ├── capstone-ta_may09a.ino          # Main Arduino code
+│   ├── thingProperties.h # Arduino IoT Cloud Properties
+│   ├── ArduinoSecrets.h # Configuration etc.
 └── README.md
 ```
+
+## Citation
+If you use this project in your research, please consider citing the following paper:
+
+@article{yourLastName2024,
+  title={Design and Development of an Automated Birdcage Management System Using Microcontrollers and IoT},
+  author={Your Name and Advisor Name},
+  journal={Journal of Automation and IoT in Animal Care},
+  year={2024},
+  volume={1},
+  number={1},
+  pages={10-20},
+  publisher={University of Andalas},
+}
+
+
+## Contact 
+For any questions or feedback, feel free to reach out:
+- **Name** : Muhammad Farid Rahman
+- **Email** : muhammadfaridrahman.mfr@gmail.com
+- **GitHub** : sof4raway
