@@ -90,11 +90,11 @@ project-root/
 ## Citation
 If you find this work useful for your research, please consider citing the following paper:
 
-**Author** : Muhammad Farid Rahman, and Rifki Suwandi
-**Title** : Rancang Bangun Sistem Otomatisasi Sangkar Burung Berbasis Mikrokontroler
-**Type** : Theses
-**Publisher** : Andalas University
-**Year** : 2024
+- **Author** : Muhammad Farid Rahman, and Rifki Suwandi
+- **Title** : Rancang Bangun Sistem Otomatisasi Sangkar Burung Berbasis Mikrokontroler
+- **Type** : Theses
+- **Publisher** : Andalas University
+- **Year** : 2024
 
 
 ## Contact 
