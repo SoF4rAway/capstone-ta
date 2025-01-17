@@ -96,6 +96,38 @@ If you find this work useful for your research, please consider citing the follo
 - **Publisher** : Andalas University
 - **Year** : 2024
 
+Here are some BibTex Formate on APA, IEEE, and Harvard Style :
+#### APA Style
+```bibtex
+@thesis{Rahman2024,
+  author    = {Muhammad Farid Rahman and Rifki Suwandi},
+  title     = {Rancang Bangun Sistem Otomatisasi Sangkar Burung Berbasis Mikrokontroler},
+  year      = {2024},
+  school    = {Andalas University},
+  type      = {Thesis}
+}
+```
+
+#### IEEE Style
+```bibtex
+@thesis{Rahman2024,
+  author    = {M. F. Rahman and R. Suwandi},
+  title     = {Rancang Bangun Sistem Otomatisasi Sangkar Burung Berbasis Mikrokontroler},
+  year      = {2024},
+  school    = {Andalas University},
+  type      = {Thesis}
+}
+```
+#### Harvard Style
+```bibtex
+@thesis{Rahman2024,
+  author    = {Rahman, M. F. and Suwandi, R.},
+  title     = {Rancang Bangun Sistem Otomatisasi Sangkar Burung Berbasis Mikrokontroler},
+  year      = {2024},
+  school    = {Andalas University},
+  type      = {Thesis}
+}
+```
 
 ## Contact 
 For any questions or feedback, feel free to reach out:
